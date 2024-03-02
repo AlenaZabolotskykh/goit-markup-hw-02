@@ -16,19 +16,6 @@ button {
   cursor: pointer;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -80,6 +67,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
@@ -126,15 +114,17 @@ button {
 .team-title {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .team-list {
-    background-color: #FFFFFF
 }
+
 .team-item {
+    background-color: #FFFFFF
 }
 .team-img {
 }
@@ -155,6 +145,7 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -189,11 +180,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo span {
-  color: #4d5ae5;
+.logo-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
